@@ -9,8 +9,8 @@ import Packet from '#/io/Packet.js';
 
 export default class Pix24 extends DoublyLinkable {
     readonly pixels: Int32Array;
-    readonly width2d: number;
-    readonly height2d: number;
+    width2d: number;
+    height2d: number;
     cropX: number;
     cropY: number;
     cropW: number;
